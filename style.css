@@ -29,7 +29,28 @@
     font-weight: 100;
     opacity: 0.7;
 }
-.nav-items nav ul li.home a {
+.nav-items nav ul li.home a, .nav-items nav ul li.cart a  {
     font-weight: bold;
     color: #000;
+}
+/* Responsive for mobile device */
+@media (max-width: 576px){
+    /* NavBar Responsive for mobile */
+     .navbar {
+        margin: 0;
+    }
+    .nav-items nav ul {
+        gap: 0;
+    }
+    .nav-items nav ul li:not(.cart) {
+        display: none;
+        margin: 0;
+    }
+    .nav-logo{
+        height: 2rem;
+        width: 4rem;
+    }
+    /* End Nav Bar Responsive for mobile */
+     
+    
 }
