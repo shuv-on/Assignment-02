@@ -33,6 +33,10 @@
     font-weight: bold;
     color: #000;
 }
+
+/* Main section starts  */
+
+/* flower details */
 .flower-details{
     display: flex;
     align-items: center;
@@ -42,17 +46,24 @@
 .flower-info{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+   
     width: 50%;
+    margin-top: 2rem;
 }
 .flower-info h1{
     font-size: 1.8rem;
     color: #000;
-    line-height: 1.2;
+    
 }
 span{
     color: #E95A08;
+}
+.flower-info p{
+    font-size: 0.8rem;
+    color: #252432;
+    opacity: 0.7;
+    flex-wrap: wrap;
 }
 
 .flower-img img{
@@ -80,7 +91,27 @@ span{
         width: 4rem;
     }
     /* End Nav Bar Responsive for mobile */
-   
-     
+
+
+   /* Flower details Responsive for mobile */
+
+   .flower-details{
+    margin: 0;
+    margin-top: 0.5rem;
+    flex-direction: column-reverse;
+    
+   }
+   .flower-img img {
+        width: 26.5rem;
+        margin-top: 1rem;
+   }
+   .flower-info {
+        width: 100%;
+        align-items: flex-start;
+       
+    }
+    .flower-info p {
+        align-items: flex-start;
+    }
     
 }
