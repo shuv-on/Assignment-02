@@ -181,11 +181,14 @@ span{
     .items{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 0.3rem;
+        gap: 0.9rem;
         margin: 0;
     }
     .btn-primary {
-    width: auto;
+    width: 100%;
+    padding: 1rem 1.8rem;
+    font-size: 16px;
+    font-weight: bold;
    
   }
   .card img{
