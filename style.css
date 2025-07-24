@@ -183,6 +183,21 @@ span{
     align-items: flex-start;
     word-wrap: break-word;
 }
+/* Latest Deals */
+.latest-deals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 9rem;
+}
+.latest-deals p{
+    font-size: 0.8rem;
+    color: #252432;
+    opacity: 0.7;
+    text-align: center;
+    margin: 0;
+}
  
 
 
@@ -275,6 +290,16 @@ span{
     .list ul li {
         text-align: flex-start;
     }
+
+    /* Latest Deals */
+    .latest-deals {
+        margin: 1rem;
+    }
+    .latest-deals p{
+        text-align: center;
+        margin: 0;
+    }
+
 }
   
 
