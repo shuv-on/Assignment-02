@@ -122,6 +122,15 @@ span{
     border: none;
     cursor: pointer;
 }
+.added-msg {
+  display: none;
+  color: green;
+  font-size: 0.75rem;
+  margin-top: 0.4rem;
+}
+.card-info:focus-within .added-msg {
+  display: block;
+}
 .price{
     font-size: 1rem;
     font-weight: bold;
