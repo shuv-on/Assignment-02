@@ -33,6 +33,35 @@
     font-weight: bold;
     color: #000;
 }
+.flower-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 9rem;
+}
+.flower-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.flower-info h1{
+    font-size: 1.8rem;
+    color: #000;
+    line-height: 1.2;
+}
+span{
+    color: #E95A08;
+}
+
+.flower-img img{
+    width: 470px;
+    height: 300px;
+    margin-top: 1rem;
+}
+
+
 /* Responsive for mobile device */
 @media (max-width: 576px){
     /* NavBar Responsive for mobile */
@@ -51,6 +80,7 @@
         width: 4rem;
     }
     /* End Nav Bar Responsive for mobile */
+   
      
     
 }
