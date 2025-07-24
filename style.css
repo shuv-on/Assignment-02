@@ -48,14 +48,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-   
+
     width: 50%;
     margin-top: 2rem;
 }
 .flower-info h1{
     font-size: 1.8rem;
     color: #000;
-    
+
 }
 span{
     color: #E95A08;
@@ -106,7 +106,7 @@ span{
     margin: 0;
     gap: 0;
     padding: 0;
-    
+
 }
 .card-info p {
     margin: 0;
@@ -136,6 +136,54 @@ span{
     font-weight: bold;
     color: #333;
 }
+/* Bonus Container */
+
+ .bonus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 8rem auto;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+.images, .bonus-list{
+    flex: 1;
+}
+.images{
+    display: flex;
+    position: relative;
+}
+.trusted-img img {
+    width: 16rem;
+    position: absolute;
+    top: -7rem;
+    left: 14rem;
+}
+.bonus-img img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+.bonus-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    margin-right: 2.5rem;
+    margin-left: 3.8rem;
+}
+.list ul li{
+    
+    color: #252432;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    padding: .5rem;
+    align-items: flex-start;
+    word-wrap: break-word;
+}
+ 
 
 
 /* Responsive for mobile device */
@@ -166,7 +214,7 @@ span{
     margin: 0;
     margin-top: 0.5rem;
     flex-direction: column-reverse;
-    
+
    }
   .flower-img img {
     width: 100%;
@@ -179,7 +227,7 @@ span{
         width: 100%;
         align-items: flex-start;
         margin: 0;
-       
+
     }
     .flower-info p {
         align-items: flex-start;
@@ -200,11 +248,19 @@ span{
     padding: 1rem 1.8rem;
     font-size: 16px;
     font-weight: bold;
-   
+
   }
   .card img{
     width: 100%;
     height: auto;
-}
+  }
+  /* Bonus contaner */
+    .bonus-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 1rem;
+    }
     
 }
+
