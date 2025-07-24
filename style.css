@@ -299,6 +299,24 @@ span{
         text-align: center;
         margin: 0;
     }
+     .navbar,
+  .flower-details,
+  .our-plants,
+  .items,
+  .latest-deals {
+    margin: 0 1rem;
+  }
+  .bonus-container {
+    margin: 2rem 1rem;
+    padding: 0;
+  }
+
+  .flower-img img,
+  .bonus-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 
 }
   
