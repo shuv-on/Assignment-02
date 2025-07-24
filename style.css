@@ -1,5 +1,5 @@
 .navbar{
-    margin: 2rem 9rem;
+    margin: 0 4rem;
 }
 /* nav */
 .nav{
@@ -7,9 +7,22 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 1rem 2rem;
+    padding: 1rem ;
 }
 .nav-logo{
-    height: 3rem;
-    width: 3.5rem;
+    height: 4rem;
+    width: 6rem;
+}
+/* Navigaiton items styles */
+.nav-items nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-items nav ul li a{
+    text-decoration: none;
+    font-size: .8rem;
 }
