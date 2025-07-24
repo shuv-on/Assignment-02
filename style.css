@@ -88,10 +88,10 @@ span{
 
 /* Items */
 .items{
-    margin: 2rem 9rem;
+    margin: 3rem 9rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
 }
 .card img{
     width: 11rem;
@@ -116,8 +116,7 @@ span{
     color: #fff;
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
-    font-weight: bold;
-    width: 100%;
+    width: 100;
     border: none;
     cursor: pointer;
 }
@@ -172,5 +171,21 @@ span{
         margin: 0;
         margin-top: 1rem;
     }
+    /* Items responsive */
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+    .btn-primary {
+    width: 100%;
+    
+   
+  }
+  .card img{
+    width: 11rem;
+    height: 14rem;
+}
     
 }
