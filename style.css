@@ -71,6 +71,21 @@ span{
     height: 300px;
     margin-top: 1rem;
 }
+/* our plants */
+.our-plants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 9rem;
+    text-align: center;
+}
+.plants-info p{
+    font-size: 0.8rem;
+    color: #252432;
+    opacity: 0.7;
+}
+
 
 
 /* Responsive for mobile device */
@@ -112,6 +127,10 @@ span{
     }
     .flower-info p {
         align-items: flex-start;
+    }
+    .our-plants {
+        margin: 0;
+        margin-top: 1rem;
     }
     
 }
