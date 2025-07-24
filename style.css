@@ -1,5 +1,5 @@
 .navbar{
-    margin: 0 4rem;
+    margin: 0 6rem;
 }
 /* nav */
 .nav{
@@ -8,7 +8,7 @@
     align-items: center;
     background-color: #fff;
     padding: 1rem ;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 .nav-logo{
     height: 4rem;
@@ -41,8 +41,8 @@
 .flower-details{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 1rem 9rem;
+    justify-content: space-between;
+    margin: 0 9rem;
 }
 .flower-info{
     display: flex;
@@ -81,6 +81,7 @@ span{
     margin: 2rem 9rem;
     text-align: center;
 }
+
 .plants-info p{
     font-size: 0.8rem;
     color: #252432;
@@ -95,8 +96,8 @@ span{
     gap: 0.8rem;
 }
 .card img{
-    width: 11rem;
-    height: 14rem;
+    width: 100%;
+    height: auto;
 }
 .card-info{
     display: flex;
@@ -114,9 +115,10 @@ span{
 .btn-primary{
     background-color: #E95A08;
     color: #fff;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-    width: auto;
+     width: 100%;
+    padding: 1rem 1.8rem;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
     cursor: pointer;
 }
