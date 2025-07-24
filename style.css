@@ -255,12 +255,27 @@ span{
     height: auto;
   }
   /* Bonus contaner */
-    .bonus-container {
-        display: flex;
+   .trusted-img{
+    display: none;
+   }
+   .bonus-container {
         flex-direction: column;
         align-items: center;
-        margin: 2rem 1rem;
+        margin: 2rem 0;
     }
-    
+    .bonus-list {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .bonus-img img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .list ul li {
+        text-align: flex-start;
+    }
 }
+  
+
 
