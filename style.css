@@ -1,523 +1,517 @@
-* {
-  box-sizing: border-box;
-}
 .navbar{
-    margin: 0 6rem;
+margin: 0 6rem;
 }
 /* nav */
 .nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    padding: 1rem ;
-    margin: 0.5rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #fff;
+padding: 1rem ;
+margin: 0.5rem;
 }
 .nav-logo{
-    height: 4rem;
-    width: 6rem;
+height: 4rem;
+width: 6rem;
 }
 /* Navigaiton items styles */
 .nav-items nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    text-decoration: none;
-    list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 2rem;
+text-decoration: none;
+list-style: none;
 }
 .nav-items nav ul li a{
-    text-decoration: none;
-    font-size: .8rem;
-    color: #252432;
-    font-weight: 100;
-    opacity: 0.7;
+text-decoration: none;
+font-size: .8rem;
+color: #252432;
+font-weight: 100;
+opacity: 0.7;
 }
 .nav-items nav ul li.home a, .nav-items nav ul li.cart a  {
-    font-weight: bold;
-    color: #000;
+font-weight: bold;
+color: #000;
 }
 
 /* Main section starts  */
 
 /* flower details */
 .flower-details{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 10rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 9rem;
 }
 .flower-info{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-    margin-top: 2rem;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+width: 50%;
+margin-top: 2rem;
 }
 .flower-info h1{
-    font-size: 1.8rem;
-    color: #000;
+font-size: 1.8rem;
+color: #000;
 
 }
 span{
-    color: #E95A08;
+color: #E95A08;
 }
 .flower-info p{
-    font-size: 0.8rem;
-    color: #252432;
-    opacity: 0.7;
-    flex-wrap: wrap;
+font-size: 0.8rem;
+color: #252432;
+opacity: 0.7;
+flex-wrap: wrap;
 }
 
 .flower-img img{
-    width: 90%;
-    height: auto;
-    margin-top: 1rem;
+width: 470px;
+height: 300px;
+margin-top: 1rem;
 }
 /* our plants */
 .our-plants{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 9rem;
-    text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 2rem 9rem;
+text-align: center;
 }
 
 .plants-info p{
-    font-size: 0.8rem;
-    color: #252432;
-    opacity: 0.7;
+font-size: 0.8rem;
+color: #252432;
+opacity: 0.7;
 }
 
 /* Items */
 .items{
-    margin: 3rem ;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
-    
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-    gap: 0;
+margin: 3rem 7rem;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 0.8rem;
 }
 .card img{
-    width: 12rem;
-    height: auto;
+width: 100%;
+height: auto;
 }
 .card-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    gap: 0;
-    padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0;
+gap: 0;
+padding: 0;
 
 }
 .card-info p {
-    margin: 0;
-    margin-bottom: 3px;
+margin: 0;
+margin-bottom: 3px;
 }
 .btn-primary{
-    background-color: #E95A08;
-    color: #fff;
-    width: auto;
-    padding: 1rem ;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
+background-color: #E95A08;
+color: #fff;
+width: 100%;
+padding: 1rem 1.8rem;
+font-size: 16px;
+font-weight: bold;
+border: none;
+cursor: pointer;
 }
 .added-msg {
-  display: none;
-  color: green;
-  font-size: 0.75rem;
-  margin-top: 0.4rem;
+display: none;
+color: green;
+font-size: 0.75rem;
+margin-top: 0.4rem;
 }
 .card-info:focus-within .added-msg {
-  display: block;
+display: block;
 }
 .price{
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
+font-size: 1rem;
+font-weight: bold;
+color: #333;
 }
 /* Bonus Container */
 
- .bonus-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 8rem auto;
-    padding: 0 1rem;
-    gap: 1rem;
+.bonus-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 8rem auto;
+padding: 0 1rem;
+gap: 1rem;
 }
 .images, .bonus-list{
-    flex: 1;
+flex: 1;
 }
 .images{
-    display: flex;
-    position: relative;
+display: flex;
+position: relative;
 }
 .trusted-img img {
-    width: 16rem;
-    position: absolute;
-    top: -7rem;
-    left: 14rem;
+width: 16rem;
+position: absolute;
+top: -7rem;
+left: 14rem;
 }
 .bonus-img img {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
+width: 100%;
+height: auto;
+max-width: 400px;
 }
 .bonus-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    
-    margin-right: 2.5rem;
-    margin-left: 3.8rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+margin-right: 2.5rem;
+margin-left: 3.8rem;
 }
 .list ul li{
-    
-    color: #252432;
-    font-size: 0.8rem;
-    opacity: 0.7;
-    padding: .5rem;
-    align-items: flex-start;
-    word-wrap: break-word;
+
+color: #252432;
+font-size: 0.8rem;
+opacity: 0.7;
+padding: .5rem;
+align-items: flex-start;
+word-wrap: break-word;
 }
 /* Latest Deals */
 .latest-deals {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 9rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 2rem 9rem;
 }
 .latest-deals p{
-    font-size: 0.8rem;
-    color: #252432;
-    opacity: 0.7;
-    text-align: center;
-    margin: 0;
+font-size: 0.8rem;
+color: #252432;
+opacity: 0.7;
+text-align: center;
+margin: 0;
 }
 
 /* Section Shop now */
 .shop-now {
-  display: grid;
-  grid-template-columns: 1fr 2fr; 
-  grid-template-rows: 1fr 1fr;
-  gap: 1rem;
-  margin: 7rem 10rem;
+display: grid;
+grid-template-columns: 1fr 2fr; 
+grid-template-rows: 1fr 1fr;
+gap: 1rem;
+margin: 7rem 10rem;
 }
 
 .shop-click-bloom,
 .shop-click-Ana,
 .shop-click-Zabo {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  color: white;
-  font-weight: bold;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+border-radius: 0.5rem;
+color: white;
+font-weight: bold;
 }
 
 .shop-click-bloom {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/deal-bloom.png);
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/deal-bloom.png);
+grid-column: 1 / 2;
+grid-row: 1 / 2;
 }
 
 .shop-click-Ana {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/deal-ana.png);
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/deal-ana.png);
+grid-column: 1 / 2;
+grid-row: 2 / 3;
 }
 
 .shop-click-Zabo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/deal-zabo.png);
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/deal-zabo.png);
+grid-column: 2 / 3;
+grid-row: 1 / 3;
 }
 .shop-now a {
-    color: white;
+color: white;
 }
 .shop-now p {
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-    text-align: center;
+font-size: 1.2rem;
+margin: 0.5rem 0;
+text-align: center;
 }
 /* Section Join */
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 0rem;
-    text-align: center;
-    background-image: url(assets/news-letter-bg.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 20rem;
-    width: 100%;
-    padding: 0;
-    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 2rem 0rem;
+text-align: center;
+background-image: url(assets/news-letter-bg.png) ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 20rem;
+width: 100%;
+padding: 0;
+
 
 }
 .content h1 {
-    font-size: 1.8rem;
-    color: #fff;
+font-size: 1.8rem;
+color: #fff;
 }
 .input-group {
-    display: flex;
-    width: 100%;
-    max-width: 400px;
-    height: 40px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+display: flex;
+width: 400px;
+height: 40px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .input-group input {
-    flex: 1;
-    border: none;
-    padding: 0 10px;
-    font-size: 14px;
-    outline: none;
+flex: 1;
+border: none;
+padding: 0 10px;
+font-size: 14px;
+outline: none;
 }
 
 .input-group button {
-    background-color: #f35a00;
-    color: white;
-    border: none;
-    padding: 0 20px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
+background-color: #f35a00;
+color: white;
+border: none;
+padding: 0 20px;
+cursor: pointer;
+font-size: 14px;
+transition: background-color 0.3s ease;
 }
 
 .input-group button:hover {
-    background-color: #d94f00;
+background-color: #d94f00;
 }
 /* Section foooter */
 .footer-items {
-    display: flex;
-    justify-content: space-between;
-    
-    padding: 1rem 2rem;
-    margin: 3rem 10rem;
+display: flex;
+justify-content: space-between;
+
+padding: 1rem 2rem;
+margin: 3rem 10rem;
 
 }
 .footer-logo p{
-    font-size: 1rem;
-    color: #252432;
-    opacity: 0.7;
-    margin: 0;
-    padding: 0.5 rem;
+font-size: 1rem;
+color: #252432;
+opacity: 0.7;
+margin: 0;
+padding: 0.5 rem;
 }
 .footer-list ul li{
-    list-style: none;
-    font-size: 0.8rem;
-    color: #252432;
-    opacity: 0.7;
-    padding: 0.5rem;
+list-style: none;
+font-size: 0.8rem;
+color: #252432;
+opacity: 0.7;
+padding: 0.5rem;
 
 }
 .social-logo{
-    display: flex;
-    align-items: flex-start;
-    margin: 1rem;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.5rem;
-    cursor: pointer;
-    width: auto;
-    height: auto;
-    align-items: center;
+display: flex;
+align-items: flex-start;
+margin: 1rem;
+justify-content: space-between;
+gap: 1rem;
+padding: 0.5rem;
+cursor: pointer;
+width: auto;
+height: auto;
+align-items: center;
 }
 
 
 /* Responsive for mobile device */
 @media (max-width: 576px){
-    body {
-    overflow-x: hidden;
-  }
-    /* NavBar Responsive for mobile */
-     .navbar {
-        margin: 0;
-    }
-    .nav-items nav ul {
-        gap: 0;
-    }
-    .nav-items nav ul li:not(.cart) {
-        display: none;
-        margin: 0;
-    }
-    .nav-logo{
-        height: auto;
-        width: 3rem;
-    }
-    /* End Nav Bar Responsive for mobile */
+body {
+overflow-x: hidden;
+}
+/* NavBar Responsive for mobile */
+.navbar {
+margin: 0;
+}
+.nav-items nav ul {
+gap: 0;
+}
+.nav-items nav ul li:not(.cart) {
+display: none;
+margin: 0;
+}
+.nav-logo{
+height: 2rem;
+width: 4rem;
+}
+/* End Nav Bar Responsive for mobile */
 .our-plants{
-    margin: 0.5rem;
+margin: 0.5rem;
 }
 
-   /* Flower details Responsive for mobile */
+/* Flower details Responsive for mobile */
 
-   .flower-details{
-    margin: 0;
-    margin-top: 0.5rem;
-    flex-direction: column-reverse;
+.flower-details{
+margin: 0;
+margin-top: 0.5rem;
+flex-direction: column-reverse;
 
-   }
-  .flower-img img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: 1rem auto;
-    display: block;
 }
-   .flower-info {
-        width: 100%;
-        align-items: flex-start;
-        margin: 0;
-
-    }
-    .flower-info p {
-        align-items: flex-start;
-    }
-    .our-plants {
-        margin: 0;
-        margin-top: 1rem;
-    }
-    /* Items responsive */
-    .items{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.9rem;
-        margin: 0;
-    }
-    .btn-primary {
-    width: 100%;
-    padding: 1rem 1.8rem;
-    font-size: 16px;
-    font-weight: bold;
-
-  }
-  .card img{
-    width: 100%;
-    height: auto;
-  }
-  /* Bonus contaner */
-   .trusted-img{
-    display: none;
-   }
-   .bonus-container {
-        flex-direction: column;
-        align-items: center;
-        margin: 2rem 0;
-    }
-    .bonus-list {
-        margin-right: 0;
-        margin-left: 0;
-        text-align: center;
-    }
-    .bonus-img img {
-        width: 100%;
-        max-width: 300px;
-    }
-    .list ul li {
-        text-align: flex-start;
-    }
-
-    /* Latest Deals */
-    .latest-deals {
-        margin: 1rem;
-    }
-    .latest-deals p{
-        text-align: center;
-        margin: 0;
-    }
-     .navbar,
-  .flower-details,
-  .our-plants,
-  .items,
-  .latest-deals {
-    margin: 0 1rem;
-    margin-bottom: 1rem;
-  }
-  .bonus-container {
-    margin: 2rem 1rem;
-    padding: 1rem;
-  }
-
-  .flower-img img,
-  .bonus-img img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-  /* Section Shop now */
-  .shop-now {
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-    padding: 0 1rem;
-    box-sizing: border-box;
+.flower-img img {
+width: 100%;
+max-width: 400px;
+height: auto;
+margin: 1rem auto;
+display: block;
 }
-  .shop-click-bloom ,
-  .shop-click-Ana,
-  .shop-click-Zabo {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
-    box-sizing: border-box;
-    grid-column: auto;
-    grid-row: auto;
-    height: 200px;
-    
-  }
-  /* Section Join */
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-    width: 100%;
-    max-width: 100%;
-    padding: 1rem;
-    margin: 0.8rem;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
-  .input-group {
-    width: 100%;
-    padding: 0.5rem;
-    box-sizing: border-box;
-}
-    .input-group input {
-        font-size: .4rem;
-        padding: 0.5rem;
-        margin: 0;
-    }
+.flower-info {
+width: 100%;
+align-items: flex-start;
+margin: 0;
 
-    .input-group button {
-        font-size: 12px;
-        padding: 0 0.4rem;
-    }
+}
+.flower-info p {
+align-items: flex-start;
+}
+.our-plants {
+margin: 0;
+margin-top: 1rem;
+}
+/* Items responsive */
+.items{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 0.9rem;
+margin: 0;
+}
+.btn-primary {
+width: 100%;
+padding: 1rem 1.8rem;
+font-size: 16px;
+font-weight: bold;
+
+}
+.card img{
+width: 100%;
+height: auto;
+}
+/* Bonus contaner */
+.trusted-img{
+display: none;
+}
+.bonus-container {
+flex-direction: column;
+align-items: center;
+margin: 2rem 0;
+}
+.bonus-list {
+margin-right: 0;
+margin-left: 0;
+text-align: center;
+}
+.bonus-img img {
+width: 100%;
+max-width: 300px;
+}
+.list ul li {
+text-align: flex-start;
+}
+
+/* Latest Deals */
+.latest-deals {
+margin: 1rem;
+}
+.latest-deals p{
+text-align: center;
+margin: 0;
+}
+.navbar,
+.flower-details,
+.our-plants,
+.items,
+.latest-deals {
+margin: 0 1rem;
+margin-bottom: 1rem;
+}
+.bonus-container {
+margin: 2rem 1rem;
+padding: 1rem;
+}
+
+.flower-img img,
+.bonus-img img {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+/* Section Shop now */
+.shop-now {
+grid-template-columns: 1fr;
+grid-template-rows: auto;
+margin-top: 1rem;
+margin: 0;
+align-items: center;
+width: 100vw;
+max-width: 100vw;
+
+overflow-x: hidden;
+}
+.shop-click-bloom ,
+.shop-click-Ana,
+.shop-click-Zabo {
+width: 390px;
+max-width: 100%;
+min-width: 0;
+box-sizing: border-box;
+grid-column: auto;
+grid-row: auto;
+height: 200px;
+padding: 2rem;
+margin: 1rem;
+}
+/* Section Join */
+.content {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 1rem;
+width: 100%;
+max-width: 100%;
+padding: 1rem;
+margin: 0.8rem;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+.input-group{
+width: 100%;
+padding: 2rem;
+
+}
+
+.input-group input {
+font-size: .4rem;
+padding: 0.5rem;
+margin: 0;
+}
+
+.input-group button {
+font-size: 12px;
+padding: 0 0.4rem;
+}
+  
   /* Footer responsive */
   .footer{
     display: flex;
@@ -556,8 +550,6 @@ span{
     text-align: left;
 }
 
-
 }
-  
 
 
