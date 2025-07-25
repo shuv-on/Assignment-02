@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .navbar{
     margin: 0 6rem;
 }
@@ -42,13 +45,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 9rem;
+    margin: 0 10rem;
 }
 .flower-info{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     width: 50%;
     margin-top: 2rem;
 }
@@ -68,8 +70,8 @@ span{
 }
 
 .flower-img img{
-    width: 470px;
-    height: 300px;
+    width: 90%;
+    height: auto;
     margin-top: 1rem;
 }
 /* our plants */
@@ -90,13 +92,22 @@ span{
 
 /* Items */
 .items{
-    margin: 3rem 7rem;
+    margin: 3rem ;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.8rem;
+    
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 0;
 }
 .card img{
-    width: 100%;
+    width: 12rem;
     height: auto;
 }
 .card-info{
@@ -115,8 +126,8 @@ span{
 .btn-primary{
     background-color: #E95A08;
     color: #fff;
-     width: 100%;
-    padding: 1rem 1.8rem;
+    width: auto;
+    padding: 1rem ;
     font-size: 16px;
     font-weight: bold;
     border: none;
@@ -272,7 +283,8 @@ span{
 }
 .input-group {
     display: flex;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 40px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
@@ -353,8 +365,8 @@ span{
         margin: 0;
     }
     .nav-logo{
-        height: 2rem;
-        width: 4rem;
+        height: auto;
+        width: 3rem;
     }
     /* End Nav Bar Responsive for mobile */
 .our-plants{
@@ -459,27 +471,23 @@ span{
   /* Section Shop now */
   .shop-now {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    margin-top: 1rem;
-    margin: 0;
-    align-items: center;
-    width: 100vw;
-    max-width: 100vw;
-    
-    overflow-x: hidden;
-  }
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
   .shop-click-bloom ,
   .shop-click-Ana,
   .shop-click-Zabo {
-    width: 390px;
+    width: 100%;
     max-width: 100%;
     min-width: 0;
     box-sizing: border-box;
     grid-column: auto;
     grid-row: auto;
     height: 200px;
-    padding: 2rem;
-    margin: 1rem;
+    
   }
   /* Section Join */
   .content {
@@ -495,12 +503,11 @@ span{
     box-sizing: border-box;
     overflow-x: hidden;
   }
-  .input-group{
+  .input-group {
     width: 100%;
-    padding: 2rem;
-
-  }
-
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
     .input-group input {
         font-size: .4rem;
         padding: 0.5rem;
@@ -548,6 +555,7 @@ span{
     margin: 1rem;
     text-align: left;
 }
+
 
 }
   
