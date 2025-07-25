@@ -254,6 +254,9 @@ span{
 
 /* Responsive for mobile device */
 @media (max-width: 576px){
+    body {
+    overflow-x: hidden;
+  }
     /* NavBar Responsive for mobile */
      .navbar {
         margin: 0;
@@ -356,6 +359,7 @@ span{
   .items,
   .latest-deals {
     margin: 0 1rem;
+    margin-bottom: 1rem;
   }
   .bonus-container {
     margin: 2rem 1rem;
@@ -368,6 +372,30 @@ span{
     max-width: 100%;
     height: auto;
   }
+  /* Section Shop now */
+  .shop-now {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-top: 1rem;
+    margin: 0;
+    align-items: center;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .shop-click-bloom ,
+  .shop-click-Ana,
+  .shop-click-Zabo {
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
+    grid-column: auto;
+    grid-row: auto;
+    height: 200px;
+    width: 100%;
+  }
+  
 
 }
   
